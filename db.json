@@ -1,0 +1,22 @@
+
+{
+  "student": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "password": "typicode"
+    }
+  ],
+  "super admin": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "password": "typicode"
+    }
+  ],
+  "admin": {
+    "id": 1,
+      "name": "json-server",
+      "password": "typicode"
+    }
+}

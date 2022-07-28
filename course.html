@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <style>
+        #nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(3, 94, 64);
+            padding: 1%;
+        }
+        #con{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap:10px;
+            
+        }
+        #con>div{
+            padding: 3%;
+            background-color: rgb(70, 69, 68);
+            
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+        }
+        select{
+            height: 40px;
+            width: 250px;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div><a href="./login.html">Login</a> </div>
+        <div><a href="./index.html">Home</a> </div>
+        <div><a href="./payment.html">Payment</a> </div>
+    </div>
+    <h1>Course List</h1>
+    <div id="con">
+        <div>
+           <p>Demo Lectures
+           <select name="Lecture1" id="" >
+            <option value="">rab</option>
+            <option value="">tom</option>
+            <option value="">dik</option>            
+           </select> 
+        </div>
+        <div>
+            <p>Paid Lectures
+                <select name="Lecture2" id="" >
+                 <option value="">rab</option>
+                 <option value="">tom</option>
+                 <option value="">dik</option>            
+                </select> 
+            </div>
+        <div>
+            <p>Paid Lectures
+                <select name="Lecture3" id="" >
+                 <option value="">rab</option>
+                 <option value="">tom</option>
+                 <option value="">dik</option>            
+                </select> 
+    </div>
+    
+</body>
+</html>
